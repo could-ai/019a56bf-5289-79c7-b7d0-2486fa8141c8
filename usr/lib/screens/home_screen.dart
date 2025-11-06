@@ -20,8 +20,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Commodity Trading"),
+        title: const Text("Agri Tus"),
         backgroundColor: Colors.brown[700],
+        centerTitle: true,
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(10.0),
